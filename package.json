@@ -1,0 +1,27 @@
+{
+  "name": "backend-2024-projektmunka",
+  "version": "1.0.0",
+  "description": "CKIK webapp projektmunka 2024",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles --watchAll",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ckik",
+    "frontend",
+    "backend",
+    "webapp",
+    "projektmunka",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.19.2",
+    "jest": "^29.7.0"
+  }
+}
